@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.btn{
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all .5s;
+  }
+  .btn:hover{
+    background-color: rgba(0,0,0,0.2);
+    color:white;
+  }
